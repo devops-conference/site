@@ -1,0 +1,105 @@
+$header-color: #1D1D1D;
+
+.header {
+    width: 100%;
+    position: fixed;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    color: $header-color;
+    z-index: 100;
+
+    a {
+        &:hover {
+            color: #5abeee !important;
+        }
+    }
+
+    &.scrolling {
+        background: $header-color;
+        box-shadow: 0 0 5px -1px black;
+
+        a {
+            color: black !important;
+            &:hover {
+                color: $header-color !important;
+            }
+        }
+    }
+    
+    .left {
+        position: absolute;
+        left: 30px;
+
+        img {
+            width: 100px;
+            height: auto;
+        }
+    }
+
+    .center {
+        margin: 0 auto;
+
+        img {
+            width: 100px;
+            height: auto;
+        }
+        
+        ul {
+            list-style: none;
+            li {
+                display: inline;
+                margin: 0 10px;
+                
+                a {
+                    color: $header-color;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .right {
+        position: absolute;
+        right: 30px;
+
+        img {
+            width: 120px;
+            height: auto;
+        }
+    }
+}
+
+@media(max-width: 850px) {
+    .header {
+        .right {
+            display: none;
+        }
+
+        .center {
+            position: absolute;
+            right: 20px;
+        }
+    }
+}
+
+@-moz-document url-prefix() {
+    .header {
+
+        .left {
+            top: 10px;
+        }
+
+        .right {
+            top: 25px;
+        }
+    }
+
+    @media(max-width: 850px) {
+        .header {
+            .center {
+                top: 30px;
+            }
+        }
+    }
+}

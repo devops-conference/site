@@ -1,0 +1,25 @@
+{
+  "name": "devops-conference",
+  "version": "0.1",
+  "author": {
+    "email": "dijalmacz@gmail.com",
+    "name": "Dijalma Silva",
+    "url": "dijalmasilva.github.io"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.0",
+    "animate.css": "^3.7.0",
+    "next": "8.0.5-canary.26",
+    "node-sass": "^4.7.2",
+    "react": "^16.8.6",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "^16.8.6",
+    "react-image-gallery": "^0.8.16"
+  }
+}
