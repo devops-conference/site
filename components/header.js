@@ -1,5 +1,10 @@
 import Link from 'next/link'
 import Head from 'next/head'
+import getConfig from 'next/config'
+
+const { publicRuntimeConfig } = getConfig()
+const { BACKEND_URL } = publicRuntimeConfig
+
 import site from '../utils/config'
 
 class Header extends React.Component {
@@ -37,11 +42,11 @@ class Header extends React.Component {
                         <div className={this.state.scrolling ? 'center': 'left'}>
                             {
                                 this.state.scrolling &&
-                                <Link href="/"><a><img src={site.menu.logos.scrolling} alt="logo-evento"/></a></Link>
+                                <Link href="/"><a><img src={`${BACKEND_URL}${site.menu.logos.scrolling}`} alt="logo-evento"/></a></Link>
                             }
                             {
                                 !this.state.scrolling &&
-                                <Link href="/"><a><img src={site.menu.logos.initial} alt="logo-evento"/></a></Link>
+                                <Link href="/"><a><img src={`${BACKEND_URL}${site.menu.logos.initial}`} alt="logo-evento"/></a></Link>
                             }
                         </div>
                     </div>

@@ -1,4 +1,8 @@
 import site from '../utils/config'
+import getConfig from 'next/config'
+
+const { publicRuntimeConfig } = getConfig()
+const { BACKEND_URL } = publicRuntimeConfig
 
 export default () => (
     <div className="footer">
@@ -8,7 +12,7 @@ export default () => (
                     site.footer.socialsNetwork.map(socialsNetwork => {
                         return (
                             <a key={socialsNetwork.name} href={socialsNetwork.url} target="_blank">
-                                <img src={socialsNetwork.icon} alt={socialsNetwork.name} />
+                                <img src={`${BACKEND_URL}${socialsNetwork.icon}`} alt={socialsNetwork.name} />
                             </a>
                         )
                     })
