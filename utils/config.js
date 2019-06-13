@@ -1,7 +1,7 @@
 const site = {
 
     title: 'DevOps Conference',
-    logo: '/static/img/logos/b.png',
+    logo: '/static/img/logos/e.png',
     dateEventDetail: 'De 29 de Junho a 05 de Julho!',
     dateEventStart: '06/29/2019 19:00:00',
     dateEventFinish: '07/05/2019 15:30:00',
@@ -9,8 +9,8 @@ const site = {
     dateRegistrationFinish: '06/28/2019',
     menu: {
         logos: {
-            initial: '/static/img/logos/b.png',
-            scrolling: '/static/img/logos/b.png',
+            initial: '/static/img/logos/e.png',
+            scrolling: '/static/img/logos/e.png',
         }
     },
     about: {
