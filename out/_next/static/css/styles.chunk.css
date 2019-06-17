@@ -181,7 +181,7 @@
     width: 6px;
     height: 6px; }
   *::-webkit-scrollbar-thumb {
-    background: #45b3a2; }
+    background: #629fd6; }
 
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -193,12 +193,12 @@ button, .button {
   text-decoration: none;
   border: none;
   padding: 8px;
-  background: #45b3a2;
+  background: #629fd6;
   color: white;
   border-radius: 4px; }
   button:hover, .button:hover {
     cursor: pointer;
-    background: #378e81; }
+    background: #3a86cb; }
   button.large, .button.large {
     padding: 12px;
     font-size: 1.2em; }
@@ -209,13 +209,13 @@ button, .button {
   margin-top: 60px;
   font-size: 5em; }
   .follow-twitter a {
-    color: #45b3a2;
+    color: #629fd6;
     text-decoration: none; }
     .follow-twitter a:hover {
-      color: #378e81; }
+      color: #3a86cb; }
 
 .text-styled .word {
-  color: #45b3a2 !important; }
+  color: #629fd6 !important; }
 
 .animated-text {
   display: inline-block; }
