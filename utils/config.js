@@ -16,13 +16,45 @@ const site = {
     about: {
         title: 'Sobre o DevOps Conference',
     },
-    hashTag: '#devopsconference',
+    hashTag: 'devopscf',
     footer: {
         socialsNetwork: [
             { name: 'github', icon: '/static/img/icons/github_white.png', url: 'https://github.com/devops-conference' },
         ],
         copyrigth: '© Todos os direitos reservados, 2019.',
-    }
+    },
+    programacao: [
+        {
+            horario: '09:00 até 09:50',
+            nome: 'O que é DevOps e a Cultura'
+        },
+        {
+            horario: '09:50 até 10:40',
+            nome: ''
+        },
+        {
+            horario: '10:40 até 11:30',
+            nome: ''
+        },{
+            horario: '12:00 até 13:30',
+            nome: 'Almoço'
+        },{
+            horario: '13:30 até 14:20',
+            nome: ''
+        },{
+            horario: '14:20 até 15:30',
+            nome: ''
+        },{
+            horario: '15:30 até 16:00',
+            nome: 'Coffee Break'
+        },{
+            horario: '16:00 até 16:50',
+            nome: ''
+        },{
+            horario: '17:00 até 18:00',
+            nome: 'Mesa Redonda'
+        }
+    ]
 }
 
 export default site
