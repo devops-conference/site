@@ -79,20 +79,13 @@ class Index extends React.Component {
                 </MiniSection>
                 <MiniSection alignCenter
                              backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`}>
-                    <ScrollAnimation animateIn="pulse" duration={2}  ><img
-                        src={`${BACKEND_URL}/static/img/icons/instagram_white.png`}
-                        alt="instagram"/><br/></ScrollAnimation>
-                    <ScrollAnimation animateIn="pulse" duration={2}><img
-                        src={`${BACKEND_URL}/static/img/icons/facebook_white.png`}
-                        alt="facebook"/><br/></ScrollAnimation>
-                    <ScrollAnimation animateIn="pulse" duration={2}><img
-                        src={`${BACKEND_URL}/static/img/icons/twitter-white.png`}
-                        alt="twitter"/><br/></ScrollAnimation>
-                    <h1 className="follow-twitter"><a href={`https://www.instagram.com/${site.hashTag}`}
-                                                      target="_blank">
-                        <AnimatedText text={'@' + site.hashTag} className="text-styled"/>
-                    </a>
+                    <ScrollAnimation animateIn="pulse" duration={2}> <img src={`${BACKEND_URL}/static/img/icons/instagram_white.png`} align={"center"} alt="instagram"/><br/></ScrollAnimation>
+                    <ScrollAnimation animateIn="pulse" duration={2}> <img src={`${BACKEND_URL}/static/img/icons/facebook_white.png`} align={"right"} alt="facebook"/><br/></ScrollAnimation>
+                    <ScrollAnimation animateIn="pulse" duration={2}> <img src={`${BACKEND_URL}/static/img/icons/twitter-white.png`} align={"left"} alt="twitter"/><br/></ScrollAnimation>
+                    <h1 className="follow-twitter" align={"left"}> <a href={`https://www.instagram.com/${site.hashTag}`} target="_blank">
+                        <AnimatedText text={'@' + site.hashTag} className="text-styled"/> </a>
                     </h1>
+                    <br/>
                 </MiniSection>
                 <MiniSection>
                     <br/>
