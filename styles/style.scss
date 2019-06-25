@@ -82,6 +82,30 @@ button, .button {
         display: inline-block;
     }
 }
+ul {
+    padding: 0;
+    list-style: none;
+    li{
+        margin: 10px 0;
+    }
+}
+
+.maps {
+    width: 100%;
+    display: table;
+
+   iframe {
+       width: 49%;
+       height: 400px;
+       float: left;
+   }
+
+    img {
+        width: 49%;
+        height: 400px;
+        float: right;
+    }
+}
 
 @media(max-width: 650px) {
     .follow-twitter {

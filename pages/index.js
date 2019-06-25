@@ -79,9 +79,15 @@ class Index extends React.Component {
                 </MiniSection>
                 <MiniSection alignCenter
                              backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`}>
-                    <ScrollAnimation animateIn="pulse" duration={2}><img
+                    <ScrollAnimation animateIn="pulse" duration={2}  ><img
                         src={`${BACKEND_URL}/static/img/icons/instagram_white.png`}
                         alt="instagram"/><br/></ScrollAnimation>
+                    <ScrollAnimation animateIn="pulse" duration={2}><img
+                        src={`${BACKEND_URL}/static/img/icons/facebook_white.png`}
+                        alt="facebook"/><br/></ScrollAnimation>
+                    <ScrollAnimation animateIn="pulse" duration={2}><img
+                        src={`${BACKEND_URL}/static/img/icons/twitter-white.png`}
+                        alt="twitter"/><br/></ScrollAnimation>
                     <h1 className="follow-twitter"><a href={`https://www.instagram.com/${site.hashTag}`}
                                                       target="_blank">
                         <AnimatedText text={'@' + site.hashTag} className="text-styled"/>
@@ -94,7 +100,7 @@ class Index extends React.Component {
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15835.896147127442!2d-34.87990134556883!3d-7.128999696264386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1629016d1091cb1!2sCentro+Cultural+Ariano+Suassuna!5e0!3m2!1spt-BR!2sbr!4v1560875453071!5m2!1spt-BR!2sbr"
                         />
-                        <img src={`${BACKEND_URL}/static/img/ct.jpg`} alt="ariano suassuna"/>
+                        <img src={`${BACKEND_URL}/static/img/f.jpg`} alt="ariano suassuna"/>
                     </div>
                     <br/><br/>
                     <hr/>
