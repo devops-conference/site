@@ -32,6 +32,7 @@ class Index extends React.Component {
                 </Section>
                 <Section title={site.about.title} alignCenter firstSection>
                     <br/><br/>
+                    <div className="descr-font">
                     <p>
                         DevOps é um dos conceitos mais discutidos do momento e trata-se de uma cultura que nasceu como
                         um conjunto de práticas para integração entre as equipes de desenvolvimento de softwares,
@@ -39,8 +40,17 @@ class Index extends React.Component {
                         adoção de processos automatizados para produção rápida e segura de aplicações e serviços.
                         Venha conhecer nesta conferência diversas ferramentas, casos de sucesso e dicas práticas de como
                         DevOps pode lhe ajudar e ser aplicado na sua carreira e empresa.
-
                     </p>
+                    <br/>
+                    <p>
+                        O evento está no seu primeiro ano e tem como objetivo fomentar a cultura de colaboração
+                        entre as equipes de desenvolvimento e de operação implementando uma cultura ágil voltada para o negócio.
+                        Venha conhecer como aplicar o DevOps dentro da sua rotina diária, com palestras sobre os temas mais atuais
+                        do mercado, contado com experiência e cases de sucesso que as empresas têm adotado. Essa é uma excelente
+                        oportunidade para alunos, comunidade técnica, profissionais técnicos, gestores e diretores conhecerem a
+                        cultura através de palestras a nível nacional.
+                    </p>
+                    </div>
 
                 </Section>
                 <Section title="Palestrantes"
@@ -65,6 +75,16 @@ class Index extends React.Component {
                 <Section title="Patrocinadores"
                          backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`}
                          backdrop alignCenter firstSection>
+                    <br/>
+                    <br/>
+                    <div className="tce">
+                        <img src={`${BACKEND_URL}/static/img/g.png`} align={"center"} alt="TCE"/>
+                        <img src={`${BACKEND_URL}/static/img/v.png`} align={"left"} alt="VAT"/>
+                    </div>
+                    <br/>
+                    {/*<div className="vat">
+                        <img src={`${BACKEND_URL}/static/img/v.png`} align={"left"} alt="VAT"/><br/>
+                    </div>*/}
 
                 </Section>
                 <MiniSection title="Inscrições" id="inscription" alignCenter>

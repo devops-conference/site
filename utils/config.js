@@ -26,30 +26,30 @@ const site = {
     programacao: [
         {
             horario: '09:00 até 09:50',
-            nome: 'O que é DevOps e a Cultura'
+            nome: 'O que é DevOps ? - Kevin Medeiros'
         },
         {
             horario: '09:50 até 10:40',
-            nome: ''
+            nome: 'IaaC Infraestructure as a Code'
         },
         {
             horario: '10:40 até 11:30',
-            nome: ''
+            nome: 'Docker e Kubernetes'
         },{
             horario: '12:00 até 13:30',
             nome: 'Almoço'
         },{
             horario: '13:30 até 14:20',
-            nome: ''
+            nome: 'Kafka - Ramon Pereira'
         },{
             horario: '14:20 até 15:30',
-            nome: ''
+            nome: 'Jekins - Aécio'
         },{
             horario: '15:30 até 16:00',
             nome: 'Coffee Break'
         },{
             horario: '16:00 até 16:50',
-            nome: ''
+            nome: 'Cloud Native - Osmar Leão'
         },{
             horario: '17:00 até 18:00',
             nome: 'Mesa Redonda'

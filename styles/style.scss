@@ -106,6 +106,25 @@ ul {
         float: right;
     }
 }
+.tce {
+    width: 100%;
+    display: flex;
+    padding: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  img {
+      width: 30%;
+      height: 30%;
+      float: left;
+  }
+}
+
+.descr-font{
+    p {
+        font-size: 18px;
+    }
+}
 
 @media(max-width: 650px) {
     .follow-twitter {
