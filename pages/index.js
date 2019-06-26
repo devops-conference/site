@@ -79,7 +79,7 @@ class Index extends React.Component {
                     <br/>
                     <div className="tce">
                         <img src={`${BACKEND_URL}/static/img/g.png`} align={"center"} alt="TCE"/>
-                        <img src={`${BACKEND_URL}/static/img/v.png`} align={"left"} alt="VAT"/>
+                        <img src={`${BACKEND_URL}/static/img/v.jpeg`} align={"left"} alt="VAT"/>
                     </div>
                     <br/>
                     {/*<div className="vat">
@@ -99,9 +99,11 @@ class Index extends React.Component {
                 </MiniSection>
                 <MiniSection alignCenter
                              backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`}>
-                    <ScrollAnimation animateIn="pulse" duration={2}> <img src={`${BACKEND_URL}/static/img/icons/instagram_white.png`} align={"center"} alt="instagram"/><br/></ScrollAnimation>
-                    <ScrollAnimation animateIn="pulse" duration={2}> <img src={`${BACKEND_URL}/static/img/icons/facebook_white.png`} align={"right"} alt="facebook"/><br/></ScrollAnimation>
-                    <ScrollAnimation animateIn="pulse" duration={2}> <img src={`${BACKEND_URL}/static/img/icons/twitter-white.png`} align={"left"} alt="twitter"/><br/></ScrollAnimation>
+                    <div className="social">
+                    <ScrollAnimation animateIn="pulse" duration={2}> <img src={`${BACKEND_URL}/static/img/icons/instagram_white.png`} href={`https://www.instagram.com/${site.hashTag}`} target="_blank" alt="instagram"/><br/></ScrollAnimation>
+                    <ScrollAnimation animateIn="pulse" duration={2}> <img src={`${BACKEND_URL}/static/img/icons/facebook_white.png`} alt="facebook"/><br/></ScrollAnimation>
+                    <ScrollAnimation animateIn="pulse" duration={2}> <img src={`${BACKEND_URL}/static/img/icons/twitter-white.png`} alt="twitter"/><br/></ScrollAnimation>
+                    </div>
                     <h1 className="follow-twitter" align={"left"}> <a href={`https://www.instagram.com/${site.hashTag}`} target="_blank">
                         <AnimatedText text={'@' + site.hashTag} className="text-styled"/> </a>
                     </h1>
