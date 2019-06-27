@@ -95,7 +95,7 @@ class Index extends React.Component {
                     <div className="titulos">
     
                     <div><p> Kevin Medeiros </p>
-                    <p> DevOps Engeener na Aconrs</p></div>
+                    <p> DevOps Engineer na Anchor</p></div>
 
                     <div><p>Luiz Thiago </p> 
                     <p>DevOps Engineer na Reliant Solutions</p></div>
