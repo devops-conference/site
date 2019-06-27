@@ -26,11 +26,11 @@ const site = {
     programacao: [
         {
             horario: '09:00 até 09:50',
-            nome: 'O que é DevOps ? - Kevin Medeiros'
+            nome: 'A Cultura DevOps e sua importância - Kevin Medeiros'
         },
         {
             horario: '09:50 até 10:40',
-            nome: 'IaaC Infraestructure as a Code'
+            nome: 'IaaC Infraestructure as a Code - Luiz Thiago'
         },
         {
             horario: '10:40 até 11:30',
@@ -40,10 +40,10 @@ const site = {
             nome: 'Almoço'
         },{
             horario: '13:30 até 14:20',
-            nome: 'Kafka - Ramon Pereira'
+            nome: 'Apache Kafka - Ramon Pereira'
         },{
             horario: '14:20 até 15:30',
-            nome: 'Jekins - Aécio'
+            nome: 'Integração e Entrega Contínua com Jenkins, Git, Docker e Terraform - Aécio'
         },{
             horario: '15:30 até 16:00',
             nome: 'Coffee Break'

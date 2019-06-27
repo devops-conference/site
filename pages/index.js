@@ -26,7 +26,9 @@ class Index extends React.Component {
                 <Section title={<img className="logo" src={`${BACKEND_URL}${site.logo}`}/>}
                          backgroundImage={`url('${BACKEND_URL}/static/img/section-background/black.jpg')`}
                          backdrop alignCenter firstSection>
+                    <p>17 de agosto de 2019 - Auditório Ariano Suassuna - TCE</p>
                     <Calendar dateStartEvent={site.dateEventStart} dateFinishEvent={site.dateEventFinish}/>
+                    
                     <br/>
                     <a className="button large" href="#inscription">Inscreva-se</a>
                 </Section>
@@ -56,9 +58,55 @@ class Index extends React.Component {
                 <Section title="Palestrantes"
                          backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`}
                          backdrop alignCenter firstSection>
-                    <p>
-                        Contéudo com os palestrantes
-                    </p>
+                   
+                    <br></br>
+                    <br></br>
+
+                    {/* <div className="titulos">
+
+                    <p> A Cultura DevOps e sua importância</p>
+
+                    <p> IaaC Infraestructure as a Code</p>
+
+                    <p> Apache Kafka</p>
+
+                    <div><p> Integração e Entrega Contínua</p>
+                    <p> com Jenkins, Git, Docker e Terraform</p></div>
+
+                    </div> */}
+
+                    <br></br>
+
+                    <div className="palestrantes">
+                        
+                    <img src={`${BACKEND_URL}/static/img/k.jpeg`} alt="kevin"/>
+                    {/*<p> Kevin Medeiros - DevOps Engeener</p>*/}
+
+                    <img src={`${BACKEND_URL}/static/img/victor.jpeg`} alt="victor"/>
+
+                    <img src={`${BACKEND_URL}/static/img/ramon.jpeg`} alt="ramon"/>
+
+                    <img src={`${BACKEND_URL}/static/img/aecio.jpeg`} alt="aecio"/>
+
+                    </div>
+
+                    <br></br>
+
+                    <div className="titulos">
+    
+                    <div><p> Kevin Medeiros </p>
+                    <p> DevOps Engeener na Aconrs</p></div>
+
+                    <div><p>Luiz Thiago </p> 
+                    <p>DevOps Engineer na Reliant Solutions</p></div>
+
+                    <div><p>Ramon Souza </p>
+                    <p>Especilista de TI na Conductor</p></div>
+
+                    <div><p>Aecio Pires</p>
+                        <p>Analista de Suporte na Unirede</p></div>
+                    
+                    </div>
                 </Section>
                 <MiniSection title="Programação">
                     <br/>
@@ -82,6 +130,10 @@ class Index extends React.Component {
                         <img src={`${BACKEND_URL}/static/img/v.jpeg`} align={"left"} alt="VAT"/>
                     </div>
                     <br/>
+                    <div className="tce">
+                        <p>Tribula de Contas do Estado da Paraíba</p>
+                        <p>VAT60 - podcast de tecnologia</p>
+                    </div>
                     {/*<div className="vat">
                         <img src={`${BACKEND_URL}/static/img/v.png`} align={"left"} alt="VAT"/><br/>
                     </div>*/}
