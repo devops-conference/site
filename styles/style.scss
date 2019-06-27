@@ -134,20 +134,35 @@ ul {
     }
 }
 
-.palestrantes{
-    width: 100%;
-    display: flex;
-    padding: auto;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
-    img{
-        width: 20%;
-        height: 20%;
-        float: left;
+.palestrantes .palestrante{
+    width: 300px;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 40px;
+
+    hr {
+        width: 30px;
+        border: 1px solid white;
+        margin: 5px auto;
     }
-    p{
-        float: center;
+
+    img {
+        height: 200px;
+        width: auto;
+    }
+}
+
+.patrocinadores .patrocinador{
+    width: 300px;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 40px;
+
+    img {
+        height: 200px;
+        width: auto;
     }
 }
 
@@ -178,5 +193,16 @@ ul {
 @media(max-width: 650px) {
     .follow-twitter {
         font-size: 2.5em;
+    }
+    .maps {
+        iframe {
+            width: 95%;
+            float: none;
+        }
+        img {
+            width: 95%;
+            height: auto;
+            float: none;
+        }
     }
 }

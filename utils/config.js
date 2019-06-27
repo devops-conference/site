@@ -54,6 +54,38 @@ const site = {
             horario: '17:00 até 18:00',
             nome: 'Mesa Redonda'
         }
+    ],
+    palestrantes: [
+        {
+            img: '/static/img/k.jpeg',
+            name: 'Kevin Medeiros',
+            profession: 'DevOps Engineer na Anchor'
+        },
+        {
+            img: '/static/img/victor.jpeg',
+            name: 'Luiz Thiago',
+            profession: 'DevOps Engineer na Reliant Solutions'
+        },
+        {
+            img: '/static/img/ramon.jpeg',
+            name: 'Ramon Souza',
+            profession: 'Especialista de TI na Conductor'
+        },
+        {
+            img: '/static/img/aecio.jpeg',
+            name: 'Aecio Pires',
+            profession: 'Analista de Suporte na Unirede'
+        },
+    ],
+    patrocinadores: [
+        {
+            img: '/static/img/logo1.png',
+            name: 'Tribunal de Contas do Estado da Paraíba',
+        },
+        {
+            img: '/static/img/logo2.png',
+            name: 'VAT60 - podcast de tecnologia',
+        },
     ]
 }
 
