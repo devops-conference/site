@@ -126,8 +126,8 @@ class Index extends React.Component {
                     <br/>
                     <br/>
                     <div className="tce">
-                        <img src={`${BACKEND_URL}/static/img/logo1.png`} align={"center"} alt="TCE"/>
-                        <img src={`${BACKEND_URL}/static/img/logo2.png`} align={"left"} alt="VAT"/>
+                        <img src={`${BACKEND_URL}/static/img/logo01.png`} align={"center"} alt="TCE"/>
+                        <img src={`${BACKEND_URL}/static/img/logo02.png`} align={"left"} alt="VAT"/>
                     </div>
                     <br/>
                     <div className="patrocinio">
