@@ -126,12 +126,14 @@ class Index extends React.Component {
                     <br/>
                     <br/>
                     <div className="tce">
-                        <img src={`${BACKEND_URL}/static/img/g.png`} align={"center"} alt="TCE"/>
-                        <img src={`${BACKEND_URL}/static/img/v.jpeg`} align={"left"} alt="VAT"/>
+                        <img src={`${BACKEND_URL}/static/img/logo1.png`} align={"center"} alt="TCE"/>
+                        <img src={`${BACKEND_URL}/static/img/logo2.png`} align={"left"} alt="VAT"/>
                     </div>
                     <br/>
-                    <div className="tce">
-                        <p>Tribula de Contas do Estado da Paraíba</p>
+                    <div className="patrocinio">
+                        <div><p>Tribula de Contas</p>
+                            <p>do Estado da Paraíba</p></div>
+
                         <p>VAT60 - podcast de tecnologia</p>
                     </div>
                     {/*<div className="vat">
