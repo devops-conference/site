@@ -12536,7 +12536,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: "".concat(BACKEND_URL, "/static/img/g.png"),
+        src: "".concat(BACKEND_URL, "/static/img/logo1.png"),
         align: "center",
         alt: "TCE",
         __source: {
@@ -12545,7 +12545,7 @@ function (_React$Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: "".concat(BACKEND_URL, "/static/img/v.jpeg"),
+        src: "".concat(BACKEND_URL, "/static/img/logo2.png"),
         align: "left",
         alt: "VAT",
         __source: {
@@ -12560,10 +12560,16 @@ function (_React$Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "tce",
+        className: "patrocinio",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 133
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 134
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
@@ -12572,10 +12578,16 @@ function (_React$Component) {
           lineNumber: 134
         },
         __self: this
-      }, "Tribula de Contas do Estado da Para\xEDba"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, "Tribula de Contas"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 135
+        },
+        __self: this
+      }, "do Estado da Para\xEDba")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 137
         },
         __self: this
       }, "VAT60 - podcast de tecnologia"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -12584,49 +12596,49 @@ function (_React$Component) {
         alignCenter: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 142
+          lineNumber: 144
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 143
+          lineNumber: 145
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 143
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 144
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 145
         },
         __self: this
-      }, "As inscri\xE7\xF5es est\xE3o dispon\xEDveis no per\xEDodo de 17/06/2019 a 17/08/2019"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 146
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 147
+        },
+        __self: this
+      }, "As inscri\xE7\xF5es est\xE3o dispon\xEDveis no per\xEDodo de 17/06/2019 a 17/08/2019"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 148
         },
         __self: this
       }, "\xC9 necess\xE1rio um 1kg de alimento para ter acesso ao evento que ser\xE1 doado!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146
+          lineNumber: 148
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 147
+          lineNumber: 149
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -12635,7 +12647,7 @@ function (_React$Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 148
+          lineNumber: 150
         },
         __self: this
       }, "Link de inscri\xE7\xE3o"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -12643,14 +12655,14 @@ function (_React$Component) {
         backgroundImage: "url('".concat(BACKEND_URL, "/static/img/section-background/dark-background.png')"),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152
+          lineNumber: 154
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "social",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 154
+          lineNumber: 156
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -12658,7 +12670,7 @@ function (_React$Component) {
         duration: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 157
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12668,13 +12680,13 @@ function (_React$Component) {
         alt: "instagram",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 157
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 157
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -12682,7 +12694,7 @@ function (_React$Component) {
         duration: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 156
+          lineNumber: 158
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12690,13 +12702,13 @@ function (_React$Component) {
         alt: "facebook",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 156
+          lineNumber: 158
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 156
+          lineNumber: 158
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -12704,7 +12716,7 @@ function (_React$Component) {
         duration: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157
+          lineNumber: 159
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12712,13 +12724,13 @@ function (_React$Component) {
         alt: "twitter",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157
+          lineNumber: 159
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157
+          lineNumber: 159
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
@@ -12726,7 +12738,7 @@ function (_React$Component) {
         align: "left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159
+          lineNumber: 161
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -12734,7 +12746,7 @@ function (_React$Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159
+          lineNumber: 161
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_animated_text__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -12742,39 +12754,39 @@ function (_React$Component) {
         className: "text-styled",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160
+          lineNumber: 162
         },
         __self: this
       }), " ")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 162
+          lineNumber: 164
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 164
+          lineNumber: 166
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 165
+          lineNumber: 167
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "maps",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 166
+          lineNumber: 168
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("iframe", {
         src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15835.896147127442!2d-34.87990134556883!3d-7.128999696264386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1629016d1091cb1!2sCentro+Cultural+Ariano+Suassuna!5e0!3m2!1spt-BR!2sbr!4v1560875453071!5m2!1spt-BR!2sbr",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 167
+          lineNumber: 169
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12782,31 +12794,31 @@ function (_React$Component) {
         alt: "ariano suassuna",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 170
+          lineNumber: 172
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 172
+          lineNumber: 174
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 172
+          lineNumber: 174
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 173
+          lineNumber: 175
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_footer__WEBPACK_IMPORTED_MODULE_13__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 175
+          lineNumber: 177
         },
         __self: this
       }));
