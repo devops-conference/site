@@ -264,6 +264,36 @@ ul {
     height: 90%;
     float: left; }
 
+.palestrantes {
+  width: 100%;
+  display: flex;
+  padding: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start; }
+  .palestrantes img {
+    width: 20%;
+    height: 20%;
+    float: left; }
+  .palestrantes p {
+    float: center; }
+
+.titulos {
+  width: 100%;
+  display: flex;
+  padding: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start; }
+
+.patrocinio {
+  width: 100%;
+  display: flex;
+  padding: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start; }
+
 .descr-font p {
   font-size: 18px; }
 
