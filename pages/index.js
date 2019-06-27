@@ -131,7 +131,7 @@ class Index extends React.Component {
                     </div>
                     <br/>
                     <div className="patrocinio">
-                        <div><p>Tribula de Contas</p>
+                        <div><p>Tribunal de Contas</p>
                             <p>do Estado da Paraíba</p></div>
 
                         <p>VAT60 - podcast de tecnologia</p>
