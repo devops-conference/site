@@ -40,7 +40,7 @@ const site = {
             nome: 'Almoço'
         },{
             horario: '13:30 até 14:20',
-            nome: 'Apache Kafka - Ramon Pereira'
+            nome: 'Apache Kafka: não é Netflix, mas também tem streaming - Ramon Pereira'
         },{
             horario: '14:20 até 15:30',
             nome: 'Integração e Entrega Contínua com Jenkins, Git, Docker e Terraform - Aécio'
