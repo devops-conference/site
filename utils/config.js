@@ -109,7 +109,7 @@ const site = {
         {
             img: '/static/img/magno.jpg',
             name: 'Magno Oliveira',
-            profession: 'DevOps Engineer na Conductor Tecnlogia',
+            profession: 'DevOps Engineer na Conductor Tecnologia',
         },
         {
             img: '/static/img/roberto.jpg',
