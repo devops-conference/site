@@ -12602,7 +12602,7 @@ function (_React$Component) {
           lineNumber: 142
         },
         __self: this
-      }, "As inscri\xE7\xF5es est\xE3o dispon\xEDveis no per\xEDodo de 17/06/2019 a 17/08/2019"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, "As inscri\xE7\xF5es est\xE3o dispon\xEDveis no per\xEDodo de 17/06/2019 a 16/08/2019"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 143
@@ -12906,7 +12906,7 @@ var site = {
   //     name: 'VAT60 - podcast de tecnologia',
   // },
   {
-    img: '/static/img/vsoft-logo.png',
+    img: '/static/img/image.png',
     name: 'VSOFT Tecnologia'
   }],
   organizadores: [{
