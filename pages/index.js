@@ -114,18 +114,40 @@ class Index extends React.Component {
                         }
                     </div>
                 </Section>
-                <MiniSection title="Inscrições" id="inscription" alignCenter>
+                <Section title="Organizadores"
+                         
+                         backdrop alignCenter firstSection>
+                             
+                    <br/>
+                    <br/>
+                    <div className="organizadores">
+                        {
+                            site.organizadores && site.organizadores.map( organizador => {
+                                return (
+                                    <div className="organizador">
+                                        <img src={`${BACKEND_URL}${organizador.img}`} alt={organizador.name}/>
+                                        <br/><br/>
+                                        <p>{organizador.name}</p>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </Section>
+                <MiniSection title="Inscrições Gratuitas" backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`} id="inscription" alignCenter>
                     <br/><br/>
                     <div>
                         <p>As inscrições estão disponíveis no período de 17/06/2019 a 17/08/2019</p>
-                        <p>É necessário um 1kg de alimento para ter acesso ao evento que será doado!</p><br/>
+                        <p>Incentivamos a doação de um 1kg de alimento no momento do credenciamento. Todos os alimentos serão doados a uma instituição de caridade.</p><br/>
                         <br/>
                         <a className="button large" href="https://www.sympla.com.br/devops-conference__554372"
                            target="_blank">Link de inscrição</a>
                     </div>
+                    
                 </MiniSection>
+                
                 <MiniSection alignCenter
-                             backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`}>
+                             >
                     <div className="social">
                         <ScrollAnimation animateIn="pulse" duration={2}> <img
                             src={`${BACKEND_URL}/static/img/icons/instagram_white.png`}

@@ -34,7 +34,7 @@ const site = {
         },
         {
             horario: '10:40 até 11:30',
-            nome: 'Docker e Kubernetes'
+            nome: 'Kubernetes e Istio para acelerar suas entregas'
         },{
             horario: '12:00 até 13:30',
             nome: 'Almoço'
@@ -46,10 +46,10 @@ const site = {
             nome: 'Integração e Entrega Contínua com Jenkins, Git, Docker e Terraform - Aécio'
         },{
             horario: '15:30 até 16:00',
-            nome: 'Coffee Break'
+            nome: 'Networking'
         },{
             horario: '16:00 até 16:50',
-            nome: 'Cloud Native - Osmar Leão'
+            nome: 'Cloud Native Computing Foundation - Osmar Leão'
         },{
             horario: '17:00 até 18:00',
             nome: 'Mesa Redonda'
@@ -76,15 +76,51 @@ const site = {
             name: 'Aecio Pires',
             profession: 'Analista de Suporte na Unirede'
         },
+        {
+            img: '/static/img/gregorio.jpg',
+            name: 'Gregório Melo',
+            profession: 'Desenvolvedor na ThoughWorks'
+        },
+        {
+            img: '/static/img/osmar.jpg',
+            name: 'Osmar Leão',
+            profession: 'Consultor de produtos da Oracle Brasil'
+        },
     ],
     patrocinadores: [
         {
             img: '/static/img/logo1.png',
             name: 'Tribunal de Contas do Estado da Paraíba',
         },
+        // {
+        //     img: '/static/img/logo2.png',
+        //     name: 'VAT60 - podcast de tecnologia',
+        // },
         {
-            img: '/static/img/logo2.png',
-            name: 'VAT60 - podcast de tecnologia',
+            img: '/static/img/vsoft-logo.png',
+            name: 'VSOFT Tecnologia',
+        },
+        // {
+        //     img: '/static/img/cdt.png',
+        //     name: 'Conductor Tecnologia',
+        // },
+    ],
+    organizadores: [
+        {
+            img: '/static/img/magno.jpg',
+            name: 'Magno Oliveira - DevOps Engineer na Conductor Tecnlogia',
+        },
+        {
+            img: '/static/img/roberto.jpg',
+            name: 'Roberto Carneiro',
+        },
+        {
+            img: '/static/img/rodrigo.jpg',
+            name: 'Rodrigo Lira',
+        },
+        {
+            img: '/static/img/jesse.jpg',
+            name: 'Jessé Neto',
         },
     ]
 }
