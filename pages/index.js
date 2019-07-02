@@ -128,6 +128,8 @@ class Index extends React.Component {
                                         <img src={`${BACKEND_URL}${organizador.img}`} alt={organizador.name}/>
                                         <br/><br/>
                                         <p>{organizador.name}</p>
+                                        <hr/>
+                                        <p>{organizador.profession}</p>
                                     </div>
                                 )
                             })

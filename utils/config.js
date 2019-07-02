@@ -108,19 +108,23 @@ const site = {
     organizadores: [
         {
             img: '/static/img/magno.jpg',
-            name: 'Magno Oliveira - DevOps Engineer na Conductor Tecnlogia',
+            name: 'Magno Oliveira',
+            profession: 'DevOps Engineer na Conductor Tecnlogia',
         },
         {
             img: '/static/img/roberto.jpg',
             name: 'Roberto Carneiro',
+            profession: 'Gerente de Infraestrutura na Conductor Tecnologia',
         },
         {
             img: '/static/img/rodrigo.jpg',
             name: 'Rodrigo Lira',
+            profession: 'Analista de Sistemas Senior na PBSoft/TCE'
         },
         {
             img: '/static/img/jesse.jpg',
             name: 'Jessé Neto',
+            profession: 'Analista de suporte de redes Senior na Indra'
         },
     ]
 }
