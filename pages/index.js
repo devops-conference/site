@@ -139,7 +139,7 @@ class Index extends React.Component {
                 <MiniSection title="Inscrições Gratuitas" backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`} id="inscription" alignCenter>
                     <br/><br/>
                     <div>
-                        <p>As inscrições estão disponíveis no período de 17/06/2019 a 17/08/2019</p>
+                        <p>As inscrições estão disponíveis no período de 17/06/2019 a 16/08/2019</p>
                         <p>Incentivamos a doação de um 1kg de alimento no momento do credenciamento. Todos os alimentos serão doados a uma instituição de caridade.</p><br/>
                         <br/>
                         <a className="button large" href="https://www.sympla.com.br/devops-conference__554372"
