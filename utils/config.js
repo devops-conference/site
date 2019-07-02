@@ -97,7 +97,7 @@ const site = {
         //     name: 'VAT60 - podcast de tecnologia',
         // },
         {
-            img: '/static/img/vsoft-logo.png',
+            img: '/static/img/image.png',
             name: 'VSOFT Tecnologia',
         },
         // {
