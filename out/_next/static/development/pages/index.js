@@ -12904,11 +12904,11 @@ var site = {
     img: '/static/img/logo2.png',
     name: 'VAT60 - podcast de tecnologia'
   }, {
-    img: '/static/img/vsoft-small.png',
-    name: 'VSOFT Tecnologia'
-  }, {
     img: '/static/img/conductor.png',
     name: 'Conductor Tecnologia'
+  }, {
+    img: '/static/img/vsoft-small.png',
+    name: 'VSOFT Tecnologia'
   }],
   organizadores: [{
     img: '/static/img/magno.jpg',
