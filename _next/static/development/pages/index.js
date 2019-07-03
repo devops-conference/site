@@ -12906,13 +12906,13 @@ var site = {
   //     name: 'VAT60 - podcast de tecnologia',
   // },
   {
-    img: '/static/img/image.png',
+    img: '/static/img/logovsoft.png',
     name: 'VSOFT Tecnologia'
   }],
   organizadores: [{
     img: '/static/img/magno.jpg',
     name: 'Magno Oliveira',
-    profession: 'DevOps Engineer na Conductor Tecnlogia'
+    profession: 'DevOps Engineer na Conductor Tecnologia'
   }, {
     img: '/static/img/roberto.jpg',
     name: 'Roberto Carneiro',
