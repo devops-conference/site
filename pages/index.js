@@ -114,9 +114,8 @@ class Index extends React.Component {
                         }
                     </div>
                 </Section>
-                <Section title="Organizadores"
-                         
-                         backdrop alignCenter firstSection>
+                <MiniSection title="Organizadores"                      
+                           firstSection>
                              
                     <br/>
                     <br/>
@@ -135,8 +134,9 @@ class Index extends React.Component {
                             })
                         }
                     </div>
-                </Section>
-                <MiniSection title="Inscrições Gratuitas" backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`} id="inscription" alignCenter>
+                   
+                </MiniSection>
+                <MiniSection title="Inscrições Gratuitas" backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`} id="inscription" alignCenter >
                     <br/><br/>
                     <div>
                         <p>As inscrições estão disponíveis no período de 17/06/2019 a 16/08/2019</p>
