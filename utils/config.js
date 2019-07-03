@@ -34,22 +34,22 @@ const site = {
         },
         {
             horario: '10:40 até 11:30',
-            nome: 'Docker e Kubernetes'
+            nome: 'Kubernetes e Istio para acelerar suas entregas'
         },{
             horario: '12:00 até 13:30',
             nome: 'Almoço'
         },{
             horario: '13:30 até 14:20',
-            nome: 'Apache Kafka - Ramon Pereira'
+            nome: 'Apache Kafka: não é Netflix, mas também tem streaming - Ramon Pereira'
         },{
             horario: '14:20 até 15:30',
             nome: 'Integração e Entrega Contínua com Jenkins, Git, Docker e Terraform - Aécio'
         },{
             horario: '15:30 até 16:00',
-            nome: 'Coffee Break'
+            nome: 'Networking'
         },{
             horario: '16:00 até 16:50',
-            nome: 'Cloud Native - Osmar Leão'
+            nome: 'Cloud Native Computing Foundation - Osmar Leão'
         },{
             horario: '17:00 até 18:00',
             nome: 'Mesa Redonda'
@@ -76,15 +76,55 @@ const site = {
             name: 'Aecio Pires',
             profession: 'Analista de Suporte na Unirede'
         },
+        {
+            img: '/static/img/gregorio.jpg',
+            name: 'Gregório Melo',
+            profession: 'Desenvolvedor na ThoughWorks'
+        },
+        {
+            img: '/static/img/osmar.jpg',
+            name: 'Osmar Leão',
+            profession: 'Consultor de produtos da Oracle Brasil'
+        },
     ],
     patrocinadores: [
         {
             img: '/static/img/logo1.png',
             name: 'Tribunal de Contas do Estado da Paraíba',
         },
+        // {
+        //     img: '/static/img/logo2.png',
+        //     name: 'VAT60 - podcast de tecnologia',
+        // },
         {
-            img: '/static/img/logo2.png',
-            name: 'VAT60 - podcast de tecnologia',
+            img: '/static/img/vsoft-small.png',
+            name: 'VSOFT Tecnologia',
+        },
+        // {
+        //     img: '/static/img/cdt.png',
+        //     name: 'Conductor Tecnologia',
+        // },
+    ],
+    organizadores: [
+        {
+            img: '/static/img/magno.jpg',
+            name: 'Magno Oliveira',
+            profession: 'DevOps Engineer na Conductor Tecnologia',
+        },
+        {
+            img: '/static/img/roberto.jpg',
+            name: 'Roberto Carneiro',
+            profession: 'Gerente de Infraestrutura na Conductor Tecnologia',
+        },
+        {
+            img: '/static/img/rodrigo.jpg',
+            name: 'Rodrigo Lira',
+            profession: 'Analista de Sistemas Senior na PBSoft/TCE'
+        },
+        {
+            img: '/static/img/jesse.jpg',
+            name: 'Jessé Neto',
+            profession: 'Analista de suporte de redes Senior na Indra'
         },
     ]
 }

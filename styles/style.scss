@@ -134,8 +134,13 @@ ul {
     }
 }
 
+.palestrantes {
+    display: flex;
+    overflow-x: auto;
+}
+
 .palestrantes .palestrante{
-    width: 300px;
+    width: 320px;
     display: inline-block;
     font-size: 1em;
     font-weight: bold;
@@ -153,6 +158,10 @@ ul {
     }
 }
 
+.patrocinadores {
+    display: table;
+}
+
 .patrocinadores .patrocinador{
     width: 300px;
     display: inline-block;
@@ -163,6 +172,7 @@ ul {
     img {
         height: 200px;
         width: auto;
+        max-width: 300px;
     }
 }
 
@@ -187,6 +197,30 @@ ul {
 .descr-font{
     p {
         font-size: 18px;
+    }
+}
+
+.organizadores {
+    display: flex;
+    overflow-x: auto;
+}
+
+.organizadores .organizador{
+    width: 310px;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 40px;
+
+    hr {
+        width: 30px;
+        border: 1px solid white;
+        margin: 5px auto;
+    }
+
+    img {
+        height: 200px;
+        width: auto;
     }
 }
 

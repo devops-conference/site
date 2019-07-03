@@ -69,9 +69,9 @@ class Index extends React.Component {
 
                     <div className="palestrantes">
                         {
-                            site.palestrantes && site.palestrantes.map( palestrante => {
+                            site.palestrantes && site.palestrantes.map( (palestrante, key)=> {
                                 return (
-                                    <div className="palestrante">
+                                    <div className="palestrante" key={key}>
                                         <img src={`${BACKEND_URL}${palestrante.img}`} alt={palestrante.name}/>
                                         <br/><br/>
                                         <p>{palestrante.name}</p>
@@ -87,24 +87,24 @@ class Index extends React.Component {
                     <br/>
                     <div>
                         <ul>
-                            {site.programacao.map(p => {
-                                return <li>{`${p.horario} - ${p.nome}`}</li>
+                            {site.programacao.map((p, key) => {
+                                return <li key={key}>{`${p.horario} - ${p.nome}`}</li>
                             })}
                         </ul>
                     </div>
                     <br/>
                 </MiniSection>
 
-                <Section title="Patrocinadores"
+                <MiniSection title="Patrocinadores"
                          backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`}
-                         backdrop alignCenter firstSection>
+                         alignCenter >
                     <br/>
                     <br/>
                     <div className="patrocinadores">
                         {
-                            site.patrocinadores && site.patrocinadores.map( patrocinador => {
+                            site.patrocinadores && site.patrocinadores.map( (patrocinador, key) => {
                                 return (
-                                    <div className="patrocinador">
+                                    <div className="patrocinador" key={key}>
                                         <img src={`${BACKEND_URL}${patrocinador.img}`} alt={patrocinador.name}/>
                                         <br/><br/>
                                         <p>{patrocinador.name}</p>
@@ -113,19 +113,38 @@ class Index extends React.Component {
                             })
                         }
                     </div>
-                </Section>
-                <MiniSection title="Inscrições" id="inscription" alignCenter>
+                </MiniSection>
+                <MiniSection title="Organizadores" alignCenter >
+                    <br/><br/>
+                    <div className="organizadores">
+                        {
+                            site.organizadores && site.organizadores.map( (organizador, key) => {
+                                return (
+                                    <div className="organizador" key={key}>
+                                        <img src={`${BACKEND_URL}${organizador.img}`} alt={organizador.name}/>
+                                        <br/><br/>
+                                        <p>{organizador.name}</p>
+                                        <hr/>
+                                        <p>{organizador.profession}</p>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </MiniSection>
+                <MiniSection title="Inscrições Gratuitas" backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`} id="inscription" alignCenter>
                     <br/><br/>
                     <div>
-                        <p>As inscrições estão disponíveis no período de 17/06/2019 a 17/08/2019</p>
-                        <p>É necessário um 1kg de alimento para ter acesso ao evento que será doado!</p><br/>
+                        <p>As inscrições estão disponíveis no período de 17/06/2019 a 16/08/2019</p>
+                        <p>Incentivamos a doação de um 1kg de alimento no momento do credenciamento. Todos os alimentos serão doados a uma instituição de caridade.</p><br/>
                         <br/>
                         <a className="button large" href="https://www.sympla.com.br/devops-conference__554372"
                            target="_blank">Link de inscrição</a>
                     </div>
+                    
                 </MiniSection>
-                <MiniSection alignCenter
-                             backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`}>
+                
+                <MiniSection alignCenter>
                     <div className="social">
                         <ScrollAnimation animateIn="pulse" duration={2}> <img
                             src={`${BACKEND_URL}/static/img/icons/instagram_white.png`}
