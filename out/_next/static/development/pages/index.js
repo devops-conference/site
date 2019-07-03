@@ -12907,7 +12907,7 @@ var site = {
     img: '/static/img/conductor.png',
     name: 'Conductor Tecnologia'
   }, {
-    img: '/static/img/vsoft-small.png',
+    img: '/static/img/logovsoft.png',
     name: 'VSOFT Tecnologia'
   }],
   organizadores: [{
