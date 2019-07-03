@@ -15,7 +15,6 @@ const {publicRuntimeConfig} = getConfig()
 const {BACKEND_URL} = publicRuntimeConfig
 
 class Index extends React.Component {
-//title={<img className="logo" src={`${BACKEND_URL}${site.logo}`} />}
     render() {
         return (
             <React.Fragment>

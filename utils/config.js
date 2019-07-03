@@ -92,18 +92,18 @@ const site = {
             img: '/static/img/logo1.png',
             name: 'Tribunal de Contas do Estado da Paraíba',
         },
-        // {
-        //     img: '/static/img/logo2.png',
-        //     name: 'VAT60 - podcast de tecnologia',
-        // },
+        {
+            img: '/static/img/logo2.png',
+            name: 'VAT60 - podcast de tecnologia',
+        },
         {
             img: '/static/img/vsoft-small.png',
             name: 'VSOFT Tecnologia',
         },
-        // {
-        //     img: '/static/img/cdt.png',
-        //     name: 'Conductor Tecnologia',
-        // },
+        {
+            img: '/static/img/conductor.png',
+            name: 'Conductor Tecnologia',
+        },
     ],
     organizadores: [
         {
