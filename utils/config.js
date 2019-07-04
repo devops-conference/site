@@ -35,7 +35,8 @@ const site = {
         {
             horario: '10:40 até 11:30',
             nome: 'Kubernetes e Istio para acelerar suas entregas'
-        },{
+        },
+        {
             horario: '12:00 até 13:30',
             nome: 'Almoço'
         },{
@@ -94,14 +95,14 @@ const site = {
         },
         {
             img: '/static/img/logo2.png',
-            name: 'VAT60 - podcast de tecnologia',
+            name: 'VAT60 - O podcast de tecnologia que nunca fica obsoleto!',
         },
         {
             img: '/static/img/conductor.png',
             name: 'Conductor Tecnologia',
         },
         {
-            img: '/static/img/vsoft-small.png',
+            img: '/static/img/logovsoft.png',
             name: 'VSOFT Tecnologia',
         },
     ],
