@@ -12902,7 +12902,7 @@ var site = {
     name: 'Tribunal de Contas do Estado da Paraíba'
   }, {
     img: '/static/img/logo2.png',
-    name: 'VAT60 - podcast de tecnologia'
+    name: 'VAT60 - O podcast de tecnologia que nunca fica obsoleto!'
   }, {
     img: '/static/img/conductor.png',
     name: 'Conductor Tecnologia'
