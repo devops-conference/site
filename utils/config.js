@@ -37,8 +37,12 @@ const site = {
             nome: 'Kubernetes e Istio para acelerar suas entregas'
         },
         {
-            horario: '12:00 até 13:30',
-            nome: 'Almoço'
+            horario: '11:30 até 12:20',
+            nome: 'Trilha para Implementação de Tecnologia Cloud Native - Osmar Leão'
+        },
+        {
+            horario: '12:20 até 13:30',
+            nome: 'Pausa para Almoço'
         },{
             horario: '13:30 até 14:20',
             nome: 'Apache Kafka: não é Netflix, mas também tem streaming - Ramon Pereira'
@@ -49,41 +53,38 @@ const site = {
             horario: '15:30 até 16:00',
             nome: 'Networking'
         },{
-            horario: '16:00 até 16:50',
-            nome: 'Cloud Native Computing Foundation - Osmar Leão'
-        },{
             horario: '17:00 até 18:00',
             nome: 'Mesa Redonda'
         }
     ],
     palestrantes: [
         {
-            img: '/static/img/k.jpeg',
+            img: '/static/img/kevin-medeiros.png',
             name: 'Kevin Medeiros',
             profession: 'DevOps Engineer na Anchor'
         },
         {
-            img: '/static/img/victor.jpeg',
+            img: '/static/img/luiz-thiago.png',
             name: 'Luiz Thiago',
             profession: 'DevOps Engineer na Reliant Solutions'
         },
         {
-            img: '/static/img/ramon.jpeg',
+            img: '/static/img/ramon-souza.png',
             name: 'Ramon Souza',
             profession: 'Especialista de TI na Conductor'
         },
         {
-            img: '/static/img/aecio.jpeg',
+            img: '/static/img/aecio-pires.png',
             name: 'Aecio Pires',
             profession: 'Analista de Suporte na Unirede'
         },
         {
-            img: '/static/img/gregorio.jpg',
+            img: '/static/img/gregorio-melo.png',
             name: 'Gregório Melo',
             profession: 'Desenvolvedor na ThoughWorks'
         },
         {
-            img: '/static/img/osmar.jpg',
+            img: '/static/img/osmar-leao.png',
             name: 'Osmar Leão',
             profession: 'Consultor de produtos da Oracle Brasil'
         },
@@ -108,22 +109,22 @@ const site = {
     ],
     organizadores: [
         {
-            img: '/static/img/magno.jpg',
+            img: '/static/img/magno.png',
             name: 'Magno Oliveira',
             profession: 'DevOps Engineer na Conductor Tecnologia',
         },
         {
-            img: '/static/img/roberto.jpg',
+            img: '/static/img/roberto.png',
             name: 'Roberto Carneiro',
             profession: 'Gerente de Infraestrutura na Conductor Tecnologia',
         },
         {
-            img: '/static/img/rodrigo.jpg',
+            img: '/static/img/rodrigo.png',
             name: 'Rodrigo Lira',
             profession: 'Analista de Sistemas Senior na PBSoft/TCE'
         },
         {
-            img: '/static/img/jesse.jpg',
+            img: '/static/img/jesse.png',
             name: 'Jessé Neto',
             profession: 'Analista de suporte de redes Senior na Indra'
         },
