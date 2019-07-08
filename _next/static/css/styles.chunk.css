@@ -333,6 +333,24 @@ ul {
     height: 200px;
     width: auto; }
 
+.apoiadores {
+  display: flex;
+  overflow-x: auto; }
+
+.apoiadores .apoiador {
+  width: 310px;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 40px; }
+  .apoiadores .apoiador hr {
+    width: 30px;
+    border: 1px solid white;
+    margin: 5px auto; }
+  .apoiadores .apoiador img {
+    height: 200px;
+    width: auto; }
+
 @media (max-width: 650px) {
   .follow-twitter {
     font-size: 2.5em; }

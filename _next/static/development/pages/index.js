@@ -12629,17 +12629,81 @@ function (_React$Component) {
         },
         __self: this
       }, "Link de inscri\xE7\xE3o"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        title: "Apoio",
+        backgroundImage: "url('".concat(BACKEND_URL, "/static/img/section-background/black.jpg')"),
         alignCenter: true,
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 144
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 145
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 145
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "apoiadores",
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 146
+        },
+        __self: this
+      }, _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].apoiadores && _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].apoiadores.map(function (apoiador, key) {
+        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+          className: "apoiador",
+          key: key,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 150
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+          src: "".concat(BACKEND_URL).concat(apoiador.img),
+          alt: apoiador.name,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 151
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 152
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 152
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 153
+          },
+          __self: this
+        }, apoiador.name));
+      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        alignCenter: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 160
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "social",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 147
+          lineNumber: 161
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -12647,7 +12711,7 @@ function (_React$Component) {
         duration: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 148
+          lineNumber: 162
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12657,13 +12721,13 @@ function (_React$Component) {
         alt: "instagram",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 148
+          lineNumber: 162
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151
+          lineNumber: 165
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -12671,7 +12735,7 @@ function (_React$Component) {
         duration: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152
+          lineNumber: 166
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12679,13 +12743,13 @@ function (_React$Component) {
         alt: "facebook",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152
+          lineNumber: 166
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 154
+          lineNumber: 168
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -12693,7 +12757,7 @@ function (_React$Component) {
         duration: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 169
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12701,13 +12765,13 @@ function (_React$Component) {
         alt: "twitter",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 169
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157
+          lineNumber: 171
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
@@ -12715,7 +12779,7 @@ function (_React$Component) {
         align: "left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159
+          lineNumber: 173
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -12723,7 +12787,7 @@ function (_React$Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159
+          lineNumber: 173
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_animated_text__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -12731,39 +12795,39 @@ function (_React$Component) {
         className: "text-styled",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161
+          lineNumber: 175
         },
         __self: this
       }), " ")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 163
+          lineNumber: 177
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 165
+          lineNumber: 179
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 166
+          lineNumber: 180
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "maps",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 167
+          lineNumber: 181
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("iframe", {
         src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15835.896147127442!2d-34.87990134556883!3d-7.128999696264386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1629016d1091cb1!2sCentro+Cultural+Ariano+Suassuna!5e0!3m2!1spt-BR!2sbr!4v1560875453071!5m2!1spt-BR!2sbr",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 168
+          lineNumber: 182
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12771,31 +12835,31 @@ function (_React$Component) {
         alt: "ariano suassuna",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 171
+          lineNumber: 185
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 173
+          lineNumber: 187
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 173
+          lineNumber: 187
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 174
+          lineNumber: 188
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_footer__WEBPACK_IMPORTED_MODULE_13__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 176
+          lineNumber: 190
         },
         __self: this
       }));
@@ -12854,8 +12918,11 @@ var site = {
     horario: '10:40 até 11:30',
     nome: 'Kubernetes e Istio para acelerar suas entregas'
   }, {
-    horario: '12:00 até 13:30',
-    nome: 'Almoço'
+    horario: '11:30 até 12:20',
+    nome: 'Trilha para Implementação de Tecnologia Cloud Native - Osmar Leão'
+  }, {
+    horario: '12:20 até 13:30',
+    nome: 'Pausa para Almoço'
   }, {
     horario: '13:30 até 14:20',
     nome: 'Apache Kafka: não é Netflix, mas também tem streaming - Ramon Pereira'
@@ -12866,34 +12933,31 @@ var site = {
     horario: '15:30 até 16:00',
     nome: 'Networking'
   }, {
-    horario: '16:00 até 16:50',
-    nome: 'Cloud Native Computing Foundation - Osmar Leão'
-  }, {
     horario: '17:00 até 18:00',
     nome: 'Mesa Redonda'
   }],
   palestrantes: [{
-    img: '/static/img/k.jpeg',
+    img: '/static/img/kevin-medeiros.png',
     name: 'Kevin Medeiros',
     profession: 'DevOps Engineer na Anchor'
   }, {
-    img: '/static/img/victor.jpeg',
+    img: '/static/img/luiz-thiago.png',
     name: 'Luiz Thiago',
     profession: 'DevOps Engineer na Reliant Solutions'
   }, {
-    img: '/static/img/ramon.jpeg',
+    img: '/static/img/ramon-souza.png',
     name: 'Ramon Souza',
     profession: 'Especialista de TI na Conductor'
   }, {
-    img: '/static/img/aecio.jpeg',
+    img: '/static/img/aecio-pires.png',
     name: 'Aecio Pires',
     profession: 'Analista de Suporte na Unirede'
   }, {
-    img: '/static/img/gregorio.jpg',
+    img: '/static/img/gregorio-melo.png',
     name: 'Gregório Melo',
     profession: 'Desenvolvedor na ThoughWorks'
   }, {
-    img: '/static/img/osmar.jpg',
+    img: '/static/img/osmar-leao.png',
     name: 'Osmar Leão',
     profession: 'Consultor de produtos da Oracle Brasil'
   }],
@@ -12909,23 +12973,33 @@ var site = {
   }, {
     img: '/static/img/logovsoft.png',
     name: 'VSOFT Tecnologia'
+  }, {
+    img: '/static/img/iesp.png',
+    name: 'IESP Faculdades'
   }],
   organizadores: [{
-    img: '/static/img/magno.jpg',
+    img: '/static/img/magno.png',
     name: 'Magno Oliveira',
     profession: 'DevOps Engineer na Conductor Tecnologia'
   }, {
-    img: '/static/img/roberto.jpg',
+    img: '/static/img/roberto.png',
     name: 'Roberto Carneiro',
     profession: 'Gerente de Infraestrutura na Conductor Tecnologia'
   }, {
-    img: '/static/img/rodrigo.jpg',
+    img: '/static/img/rodrigo.png',
     name: 'Rodrigo Lira',
     profession: 'Analista de Sistemas Senior na PBSoft/TCE'
   }, {
-    img: '/static/img/jesse.jpg',
+    img: '/static/img/jesse.png',
     name: 'Jessé Neto',
     profession: 'Analista de suporte de redes Senior na Indra'
+  }],
+  apoiadores: [{
+    img: '/static/img/alura.png',
+    name: 'Alura Cursos online de tecnologia'
+  }, {
+    img: '/static/img/jampasec.png',
+    name: 'JampaSec Conferência de Segurança da Informação'
   }]
 };
 /* harmony default export */ __webpack_exports__["default"] = (site);
