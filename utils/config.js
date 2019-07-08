@@ -106,6 +106,10 @@ const site = {
             img: '/static/img/logovsoft.png',
             name: 'VSOFT Tecnologia',
         },
+        {
+            img: '/static/img/iesp.png',
+            name: 'IESP Faculdades',
+        },
     ],
     organizadores: [
         {
@@ -128,6 +132,24 @@ const site = {
             name: 'Jessé Neto',
             profession: 'Analista de suporte de redes Senior na Indra'
         },
+    ],
+    apoiadores: [
+        {
+            img: '/static/img/alura.png',
+            name: 'Alura Cursos online de tecnologia',
+        },
+        {
+            img: '/static/img/jampasec.png',
+            name: 'JampaSec Conferência de Segurança da Informação',
+        },
+        // {
+        //     img: '/static/img/rodrigo.png',
+        //     name: 'Rodrigo Lira',
+        // },
+        // {
+        //     img: '/static/img/jesse.png',
+        //     name: 'Jessé Neto',
+        // },
     ]
 }
 

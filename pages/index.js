@@ -139,10 +139,24 @@ class Index extends React.Component {
                         <br/>
                         <a className="button large" href="https://www.sympla.com.br/devops-conference__554372"
                            target="_blank">Link de inscrição</a>
-                    </div>
-                    
+                    </div>  
                 </MiniSection>
-                
+                <MiniSection title="Apoio" backgroundImage={`url('${BACKEND_URL}/static/img/section-background/black.jpg')`} alignCenter >
+                    <br/><br/>
+                    <div className="apoiadores">
+                        {
+                            site.apoiadores && site.apoiadores.map( (apoiador, key) => {
+                                return (
+                                    <div className="apoiador" key={key}>
+                                        <img src={`${BACKEND_URL}${apoiador.img}`} alt={apoiador.name}/>
+                                        <br/><br/>
+                                        <p>{apoiador.name}</p>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </MiniSection>
                 <MiniSection alignCenter>
                     <div className="social">
                         <ScrollAnimation animateIn="pulse" duration={2}> <img
