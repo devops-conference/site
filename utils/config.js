@@ -134,13 +134,17 @@ const site = {
         },
     ],
     apoiadores: [
-        {
-            img: '/static/img/alura.png',
-            name: 'Alura Cursos online de tecnologia',
-        },
+        // {
+        //     img: '/static/img/alura.png',
+        //     name: 'Alura Cursos online de tecnologia',
+        // },
         {
             img: '/static/img/jampasec.png',
             name: 'JampaSec Conferência de Segurança da Informação',
+        },
+        {
+            img: '/static/img/virtus.png',
+            name: 'Virtus Soluções',
         },
         // {
         //     img: '/static/img/rodrigo.png',
