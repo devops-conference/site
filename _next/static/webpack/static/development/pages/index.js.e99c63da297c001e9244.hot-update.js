@@ -121,22 +121,16 @@ var site = {
     name: 'Jessé Neto',
     profession: 'Analista de suporte de redes Senior na Indra'
   }],
-  apoiadores: [{
-    img: '/static/img/magno.png',
-    name: 'Magno Oliveira',
-    profession: 'DevOps Engineer na Conductor Tecnologia'
+  apoiadores: [// {
+  //     img: '/static/img/alura.png',
+  //     name: 'Alura Cursos online de tecnologia',
+  // },
+  {
+    img: '/static/img/jampasec.png',
+    name: 'JampaSec Conferência de Segurança da Informação'
   }, {
-    img: '/static/img/roberto.png',
-    name: 'Roberto Carneiro',
-    profession: 'Gerente de Infraestrutura na Conductor Tecnologia'
-  }, {
-    img: '/static/img/rodrigo.png',
-    name: 'Rodrigo Lira',
-    profession: 'Analista de Sistemas Senior na PBSoft/TCE'
-  }, {
-    img: '/static/img/jesse.png',
-    name: 'Jessé Neto',
-    profession: 'Analista de suporte de redes Senior na Indra'
+    img: '/static/img/virtus.png',
+    name: 'Virtus Soluções'
   }]
 };
 /* harmony default export */ __webpack_exports__["default"] = (site);
@@ -144,4 +138,4 @@ var site = {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.eb73c3c969b51714a6ed.hot-update.js.map
+//# sourceMappingURL=index.js.e99c63da297c001e9244.hot-update.js.map

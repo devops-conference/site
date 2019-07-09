@@ -12994,12 +12994,16 @@ var site = {
     name: 'Jessé Neto',
     profession: 'Analista de suporte de redes Senior na Indra'
   }],
-  apoiadores: [{
-    img: '/static/img/alura.png',
-    name: 'Alura Cursos online de tecnologia'
-  }, {
+  apoiadores: [// {
+  //     img: '/static/img/alura.png',
+  //     name: 'Alura Cursos online de tecnologia',
+  // },
+  {
     img: '/static/img/jampasec.png',
     name: 'JampaSec Conferência de Segurança da Informação'
+  }, {
+    img: '/static/img/virtus.png',
+    name: 'Virtus Soluções'
   }]
 };
 /* harmony default export */ __webpack_exports__["default"] = (site);
