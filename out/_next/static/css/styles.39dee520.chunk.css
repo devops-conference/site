@@ -280,7 +280,8 @@ ul {
     margin: 5px auto; }
   .palestrantes .palestrante img {
     height: 200px;
-    width: auto; }
+    width: auto;
+    border-radius: 50%; }
 
 .patrocinadores {
   display: table; }
