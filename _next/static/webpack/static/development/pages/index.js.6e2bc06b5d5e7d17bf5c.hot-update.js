@@ -60,6 +60,9 @@ var site = {
     horario: '15:30 até 16:00',
     nome: 'Networking'
   }, {
+    horario: '16:00 até 17:50',
+    nome: 'DevSecOps: Segurança é responsabilidade de todos - Daniela Pitta'
+  }, {
     horario: '17:00 até 18:00',
     nome: 'Mesa Redonda'
   }],
@@ -67,6 +70,10 @@ var site = {
     img: '/static/img/kevin-medeiros.png',
     name: 'Kevin Medeiros',
     profession: 'DevOps Engineer na Anchor'
+  }, {
+    img: '/static/img/dani.jpg',
+    name: 'Daniela Pitta',
+    profession: 'Analista de Processos na Conductor Tecnologia'
   }, {
     img: '/static/img/luiz-thiago.png',
     name: 'Luiz Thiago',
@@ -138,4 +145,4 @@ var site = {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.e99c63da297c001e9244.hot-update.js.map
+//# sourceMappingURL=index.js.6e2bc06b5d5e7d17bf5c.hot-update.js.map
