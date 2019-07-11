@@ -53,15 +53,23 @@ const site = {
             horario: '15:30 até 16:00',
             nome: 'Networking'
         },{
+            horario: '16:00 até 17:50',
+            nome: 'DevSecOps: Segurança é responsabilidade de todos - Daniela Pitta'
+        },{
             horario: '17:00 até 18:00',
             nome: 'Mesa Redonda'
-        }
+        },
     ],
     palestrantes: [
         {
             img: '/static/img/kevin-medeiros.png',
             name: 'Kevin Medeiros',
             profession: 'DevOps Engineer na Anchor'
+        },
+        {
+            img: '/static/img/dani.jpg',
+            name: 'Daniela Pitta',
+            profession: 'Analista de Processos na Conductor Tecnologia'
         },
         {
             img: '/static/img/luiz-thiago.png',
@@ -146,10 +154,10 @@ const site = {
             img: '/static/img/virtus.png',
             name: 'Virtus Soluções',
         },
-        // {
-        //     img: '/static/img/rodrigo.png',
-        //     name: 'Rodrigo Lira',
-        // },
+        {
+            img: '/static/img/saborf.png',
+            name: 'Sabor Família Marmitaria',
+        },
         // {
         //     img: '/static/img/jesse.png',
         //     name: 'Jessé Neto',
