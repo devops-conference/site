@@ -2958,11 +2958,14 @@ var site = {
     horario: '15:30 até 16:00',
     nome: 'Networking'
   }, {
-    horario: '16:00 até 17:50',
+    horario: '16:00 até 16:50',
     nome: 'DevSecOps: Segurança é responsabilidade de todos - Daniela Pitta'
   }, {
     horario: '17:00 até 18:00',
     nome: 'Mesa Redonda'
+  }],
+  programaca: [{
+    img: '/static/img/programacao.png'
   }],
   palestrantes: [{
     img: '/static/img/kevin-medeiros.png',
@@ -2991,10 +2994,10 @@ var site = {
   }, {
     img: '/static/img/osmar-leao.png',
     name: 'Osmar Leão',
-    profession: 'Consultor de produtos da Oracle Brasil'
+    profession: 'Principal Sales Consultant Oracle Linux'
   }],
   patrocinadores: [{
-    img: '/static/img/logo1.png',
+    img: '/static/img/tce_256.png',
     name: 'Tribunal de Contas do Estado da Paraíba'
   }, {
     img: '/static/img/logo2.png',
@@ -3008,6 +3011,12 @@ var site = {
   }, {
     img: '/static/img/iesp.png',
     name: 'IESP Faculdades'
+  }, {
+    img: '/static/img/hifi.png',
+    name: 'HIFI Áudio·Vídeo·Automação'
+  }, {
+    img: '/static/img/iland-bk.png',
+    name: 'iland'
   }],
   organizadores: [{
     img: '/static/img/magno.png',
@@ -3035,7 +3044,7 @@ var site = {
     name: 'JampaSec Conferência de Segurança da Informação'
   }, {
     img: '/static/img/virtus.png',
-    name: 'Virtus Soluções'
+    name: 'Virt Soluções'
   }, {
     img: '/static/img/saborf.png',
     name: 'Sabor Família Marmitaria'
@@ -3058,4 +3067,4 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F_error
 /***/ })
 
 })
-//# sourceMappingURL=_error.js.627d11342455ae371bc9.hot-update.js.map
+//# sourceMappingURL=_error.js.d355325989a210646cbe.hot-update.js.map
