@@ -12395,65 +12395,80 @@ function (_React$Component) {
           lineNumber: 85
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "programaca",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 87
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 88
-        },
-        __self: this
-      }, _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].programacao.map(function (p, key) {
-        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+      }, _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].programaca && _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].programaca.map(function (programacao, key) {
+        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 92
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 92
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+          className: "programacao",
           key: key,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 90
+            lineNumber: 93
           },
           __self: this
-        }, "".concat(p.horario, " - ").concat(p.nome));
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 94
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+          src: "".concat(BACKEND_URL).concat(programacao.img),
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 94
+          },
+          __self: this
+        })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 96
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 96
+          },
+          __self: this
+        }));
+      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
         title: "Patrocinadores",
         backgroundImage: "url('".concat(BACKEND_URL, "/static/img/section-background/dark-background.png')"),
         alignCenter: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 115
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 118
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 119
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "patrocinadores",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 120
         },
         __self: this
       }, _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].patrocinadores && _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].patrocinadores.map(function (patrocinador, key) {
@@ -12462,7 +12477,7 @@ function (_React$Component) {
           key: key,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 106
+            lineNumber: 124
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12470,91 +12485,16 @@ function (_React$Component) {
           alt: patrocinador.name,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 107
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 108
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 108
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 109
-          },
-          __self: this
-        }, patrocinador.name));
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        title: "Organizadores",
-        alignCenter: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 117
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 117
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "organizadores",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 118
-        },
-        __self: this
-      }, _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].organizadores && _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].organizadores.map(function (organizador, key) {
-        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-          className: "organizador",
-          key: key,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 122
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-          src: "".concat(BACKEND_URL).concat(organizador.img),
-          alt: organizador.name,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 123
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 124
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 124
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 125
           },
           __self: this
-        }, organizador.name), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 126
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
           __source: {
             fileName: _jsxFileName,
             lineNumber: 126
@@ -12566,11 +12506,9 @@ function (_React$Component) {
             lineNumber: 127
           },
           __self: this
-        }, organizador.profession));
+        }, patrocinador.name));
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        title: "Inscri\xE7\xF5es Gratuitas",
-        backgroundImage: "url('".concat(BACKEND_URL, "/static/img/section-background/dark-background.png')"),
-        id: "inscription",
+        title: "Organizadores",
         alignCenter: true,
         __source: {
           fileName: _jsxFileName,
@@ -12590,33 +12528,110 @@ function (_React$Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "organizadores",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 136
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].organizadores && _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].organizadores.map(function (organizador, key) {
+        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+          className: "organizador",
+          key: key,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 140
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+          src: "".concat(BACKEND_URL).concat(organizador.img),
+          alt: organizador.name,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 141
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 142
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 142
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 143
+          },
+          __self: this
+        }, organizador.name), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 144
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 145
+          },
+          __self: this
+        }, organizador.profession));
+      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        title: "Inscri\xE7\xF5es Gratuitas",
+        backgroundImage: "url('".concat(BACKEND_URL, "/static/img/section-background/dark-background.png')"),
+        id: "inscription",
+        alignCenter: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137
+          lineNumber: 152
         },
         __self: this
-      }, "As inscri\xE7\xF5es est\xE3o dispon\xEDveis no per\xEDodo de 17/06/2019 a 16/08/2019"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 138
-        },
-        __self: this
-      }, "Incentivamos a doa\xE7\xE3o de um 1kg de alimento no momento do credenciamento. Todos os alimentos ser\xE3o doados a uma institui\xE7\xE3o de caridade."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 138
+          lineNumber: 153
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 139
+          lineNumber: 153
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 154
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 155
+        },
+        __self: this
+      }, "As inscri\xE7\xF5es est\xE3o dispon\xEDveis no per\xEDodo de 17/06/2019 a 16/08/2019"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 156
+        },
+        __self: this
+      }, "Incentivamos a doa\xE7\xE3o de um 1kg de alimento no momento do credenciamento. Todos os alimentos ser\xE3o doados a uma institui\xE7\xE3o de caridade."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 156
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 157
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -12625,7 +12640,7 @@ function (_React$Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140
+          lineNumber: 158
         },
         __self: this
       }, "Link de inscri\xE7\xE3o"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -12634,26 +12649,26 @@ function (_React$Component) {
         alignCenter: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144
+          lineNumber: 162
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145
+          lineNumber: 163
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145
+          lineNumber: 163
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "apoiadores",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146
+          lineNumber: 164
         },
         __self: this
       }, _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].apoiadores && _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].apoiadores.map(function (apoiador, key) {
@@ -12662,7 +12677,7 @@ function (_React$Component) {
           key: key,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 150
+            lineNumber: 168
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12670,25 +12685,25 @@ function (_React$Component) {
           alt: apoiador.name,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 151
+            lineNumber: 169
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 152
+            lineNumber: 170
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 152
+            lineNumber: 170
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 153
+            lineNumber: 171
           },
           __self: this
         }, apoiador.name));
@@ -12696,14 +12711,14 @@ function (_React$Component) {
         alignCenter: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160
+          lineNumber: 178
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "social",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161
+          lineNumber: 179
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -12711,7 +12726,7 @@ function (_React$Component) {
         duration: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 162
+          lineNumber: 180
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12721,13 +12736,13 @@ function (_React$Component) {
         alt: "instagram",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 162
+          lineNumber: 180
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 165
+          lineNumber: 183
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -12735,7 +12750,7 @@ function (_React$Component) {
         duration: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 166
+          lineNumber: 184
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12743,13 +12758,13 @@ function (_React$Component) {
         alt: "facebook",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 166
+          lineNumber: 184
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 168
+          lineNumber: 186
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -12757,7 +12772,7 @@ function (_React$Component) {
         duration: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 169
+          lineNumber: 187
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12765,13 +12780,13 @@ function (_React$Component) {
         alt: "twitter",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 169
+          lineNumber: 187
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 171
+          lineNumber: 189
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
@@ -12779,7 +12794,7 @@ function (_React$Component) {
         align: "left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 173
+          lineNumber: 191
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -12787,7 +12802,7 @@ function (_React$Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 173
+          lineNumber: 191
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_animated_text__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -12795,39 +12810,39 @@ function (_React$Component) {
         className: "text-styled",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 175
+          lineNumber: 193
         },
         __self: this
       }), " ")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 177
+          lineNumber: 195
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 179
+          lineNumber: 197
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 180
+          lineNumber: 198
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "maps",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 181
+          lineNumber: 199
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("iframe", {
         src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15835.896147127442!2d-34.87990134556883!3d-7.128999696264386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1629016d1091cb1!2sCentro+Cultural+Ariano+Suassuna!5e0!3m2!1spt-BR!2sbr!4v1560875453071!5m2!1spt-BR!2sbr",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 182
+          lineNumber: 200
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -12835,31 +12850,31 @@ function (_React$Component) {
         alt: "ariano suassuna",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 185
+          lineNumber: 203
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 187
+          lineNumber: 205
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 187
+          lineNumber: 205
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 188
+          lineNumber: 206
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_footer__WEBPACK_IMPORTED_MODULE_13__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 190
+          lineNumber: 208
         },
         __self: this
       }));
@@ -12933,11 +12948,14 @@ var site = {
     horario: '15:30 até 16:00',
     nome: 'Networking'
   }, {
-    horario: '16:00 até 17:50',
+    horario: '16:00 até 16:50',
     nome: 'DevSecOps: Segurança é responsabilidade de todos - Daniela Pitta'
   }, {
     horario: '17:00 até 18:00',
     nome: 'Mesa Redonda'
+  }],
+  programaca: [{
+    img: '/static/img/programacao.png'
   }],
   palestrantes: [{
     img: '/static/img/kevin-medeiros.png',
@@ -12966,10 +12984,10 @@ var site = {
   }, {
     img: '/static/img/osmar-leao.png',
     name: 'Osmar Leão',
-    profession: 'Consultor de produtos da Oracle Brasil'
+    profession: 'Principal Sales Consultant Oracle Linux'
   }],
   patrocinadores: [{
-    img: '/static/img/logo1.png',
+    img: '/static/img/tce_256.png',
     name: 'Tribunal de Contas do Estado da Paraíba'
   }, {
     img: '/static/img/logo2.png',
@@ -12983,6 +13001,12 @@ var site = {
   }, {
     img: '/static/img/iesp.png',
     name: 'IESP Faculdades'
+  }, {
+    img: '/static/img/hifi.png',
+    name: 'HIFI Áudio·Vídeo·Automação'
+  }, {
+    img: '/static/img/iland-bk.png',
+    name: 'iland'
   }],
   organizadores: [{
     img: '/static/img/magno.png',
@@ -13010,7 +13034,7 @@ var site = {
     name: 'JampaSec Conferência de Segurança da Informação'
   }, {
     img: '/static/img/virtus.png',
-    name: 'Virtus Soluções'
+    name: 'Virt Soluções'
   }, {
     img: '/static/img/saborf.png',
     name: 'Sabor Família Marmitaria'
