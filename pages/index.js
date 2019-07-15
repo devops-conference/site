@@ -82,8 +82,26 @@ class Index extends React.Component {
                         }
                     </div>
                 </MiniSection>
-                <MiniSection title="Programação">
-                    <br/>
+                <MiniSection title="Programação" >
+
+                    <div className="programaca">
+                        {
+                            site.programaca && site.programaca.map( (programacao, key)=> {
+                                return (
+                                    <>
+                                        <br/><br/>
+                                        <div className="programacao" key={key}>
+                                            <img src={`${BACKEND_URL}${programacao.img}`}/>
+                                        </div>
+                                        <br/><br/>
+                                    </>
+                                )
+                            })
+                        }
+                    </div>
+                </MiniSection>        
+
+                    {/* <br/>
                     <div>
                         <ul>
                             {site.programacao.map((p, key) => {
@@ -91,8 +109,8 @@ class Index extends React.Component {
                             })}
                         </ul>
                     </div>
-                    <br/>
-                </MiniSection>
+                    <br/> */}
+                
 
                 <MiniSection title="Patrocinadores"
                          backgroundImage={`url('${BACKEND_URL}/static/img/section-background/dark-background.png')`}
