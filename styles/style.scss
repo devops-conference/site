@@ -175,6 +175,42 @@ ul {
         width: auto;
         max-width: 300px;
     }
+
+    &.iLand{
+        height: 280px;
+        vertical-align: center;
+
+        img {
+
+            margin: 50px 0px;
+            height: auto;
+            width: 280px;
+        }
+    }
+
+    &.HIFI{
+        height: 280px;
+        vertical-align: center;
+
+        img {
+
+            margin: 50px 0px;
+            height: auto;
+            width: 160px;
+        }
+    }
+
+    &.Tribunal{
+        height: 180px;
+        vertical-align: center;
+
+        img {
+
+            margin: 50px 0px;
+            height: auto;
+            width: 115px;
+        }
+    }
 }
 
 .programaca .programacao{
@@ -256,8 +292,20 @@ ul {
     }
 
     img {
-        height: 200px;
-        width: auto;
+        height: 180px;
+        width: 195;
+    }
+
+    &.Alura{
+        height: 280px;
+        vertical-align: center;
+
+        img {
+
+            margin: 50px 0px;
+            height: auto;
+            width: 180px;
+        }
     }
 }
 

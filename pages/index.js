@@ -121,7 +121,7 @@ class Index extends React.Component {
                         {
                             site.patrocinadores && site.patrocinadores.map( (patrocinador, key) => {
                                 return (
-                                    <div className="patrocinador" key={key}>
+                                    <div className={patrocinador.name+" patrocinador"} key={key}>
                                         <img src={`${BACKEND_URL}${patrocinador.img}`} alt={patrocinador.name}/>
                                         <br/><br/>
                                         <p>{patrocinador.name}</p>
@@ -165,7 +165,7 @@ class Index extends React.Component {
                         {
                             site.apoiadores && site.apoiadores.map( (apoiador, key) => {
                                 return (
-                                    <div className="apoiador" key={key}>
+                                    <div className={apoiador.name+" apoiador"} key={key}>
                                         <img src={`${BACKEND_URL}${apoiador.img}`} alt={apoiador.name}/>
                                         <br/><br/>
                                         <p>{apoiador.name}</p>

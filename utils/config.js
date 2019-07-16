@@ -130,7 +130,7 @@ const site = {
         },
         {
             img: '/static/img/iland-bk.png',
-            name: 'iland',
+            name: 'iLand Soluções',
         },
     ],
     organizadores: [
@@ -156,10 +156,10 @@ const site = {
         },
     ],
     apoiadores: [
-        // {
-        //     img: '/static/img/alura.png',
-        //     name: 'Alura Cursos online de tecnologia',
-        // },
+        {
+            img: '/static/img/alura-light.png',
+            name: 'Alura Cursos online de tecnologia',
+        },
         {
             img: '/static/img/jampasec.png',
             name: 'JampaSec Conferência de Segurança da Informação',
