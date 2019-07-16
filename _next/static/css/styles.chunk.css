@@ -296,6 +296,27 @@ ul {
     height: 200px;
     width: auto;
     max-width: 300px; }
+  .patrocinadores .patrocinador.iLand {
+    height: 280px;
+    vertical-align: center; }
+    .patrocinadores .patrocinador.iLand img {
+      margin: 50px 0px;
+      height: auto;
+      width: 280px; }
+  .patrocinadores .patrocinador.HIFI {
+    height: 280px;
+    vertical-align: center; }
+    .patrocinadores .patrocinador.HIFI img {
+      margin: 50px 0px;
+      height: auto;
+      width: 160px; }
+  .patrocinadores .patrocinador.Tribunal {
+    height: 180px;
+    vertical-align: center; }
+    .patrocinadores .patrocinador.Tribunal img {
+      margin: 50px 0px;
+      height: auto;
+      width: 115px; }
 
 .programaca .programacao {
   font-size: 1em;
@@ -357,8 +378,15 @@ ul {
     border: 1px solid white;
     margin: 5px auto; }
   .apoiadores .apoiador img {
-    height: 200px;
-    width: auto; }
+    height: 180px;
+    width: 195; }
+  .apoiadores .apoiador.Alura {
+    height: 280px;
+    vertical-align: center; }
+    .apoiadores .apoiador.Alura img {
+      margin: 50px 0px;
+      height: auto;
+      width: 180px; }
 
 @media (max-width: 650px) {
   .follow-twitter {

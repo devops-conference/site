@@ -12473,7 +12473,7 @@ function (_React$Component) {
         __self: this
       }, _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].patrocinadores && _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].patrocinadores.map(function (patrocinador, key) {
         return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-          className: "patrocinador",
+          className: patrocinador.name + " patrocinador",
           key: key,
           __source: {
             fileName: _jsxFileName,
@@ -12673,7 +12673,7 @@ function (_React$Component) {
         __self: this
       }, _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].apoiadores && _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].apoiadores.map(function (apoiador, key) {
         return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-          className: "apoiador",
+          className: apoiador.name + " apoiador",
           key: key,
           __source: {
             fileName: _jsxFileName,
@@ -13006,7 +13006,7 @@ var site = {
     name: 'HIFI Áudio·Vídeo·Automação'
   }, {
     img: '/static/img/iland-bk.png',
-    name: 'iland'
+    name: 'iLand Soluções'
   }],
   organizadores: [{
     img: '/static/img/magno.png',
@@ -13025,11 +13025,10 @@ var site = {
     name: 'Jessé Neto',
     profession: 'Analista de suporte de redes Senior na Indra'
   }],
-  apoiadores: [// {
-  //     img: '/static/img/alura.png',
-  //     name: 'Alura Cursos online de tecnologia',
-  // },
-  {
+  apoiadores: [{
+    img: '/static/img/alura-light.png',
+    name: 'Alura Cursos online de tecnologia'
+  }, {
     img: '/static/img/jampasec.png',
     name: 'JampaSec Conferência de Segurança da Informação'
   }, {
@@ -13102,7 +13101,7 @@ var timeUtils = {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Flocal%2FCONDUCTOR%2Fmagno.santos%2Fsource-codes%2Fsite%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************************/
@@ -13125,5 +13124,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
