@@ -12266,7 +12266,7 @@ function (_React$Component) {
           lineNumber: 32
         },
         __self: this
-      }, "Inscreva-se")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_section__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      }, "Inscri\xE7\xF5es")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_section__WEBPACK_IMPORTED_MODULE_9__["default"], {
         title: _utils_config__WEBPACK_IMPORTED_MODULE_15__["default"].about.title,
         alignCenter: true,
         firstSection: true,
@@ -12643,7 +12643,7 @@ function (_React$Component) {
           lineNumber: 158
         },
         __self: this
-      }, "Link de inscri\xE7\xE3o"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }, "Link para Inscri\xE7\xE3o"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
         title: "Apoio",
         backgroundImage: "url('".concat(BACKEND_URL, "/static/img/section-background/black.jpg')"),
         alignCenter: true,
@@ -12972,11 +12972,15 @@ var site = {
   }, {
     img: '/static/img/ramon-souza.png',
     name: 'Ramon Souza',
-    profession: 'Especialista de TI na Conductor'
+    profession: 'Especialista de TI na Conductor Tecnologia'
   }, {
     img: '/static/img/aecio-pires.png',
     name: 'Aecio Pires',
     profession: 'Analista de Suporte na Unirede'
+  }, {
+    img: '/static/img/selene.jpeg',
+    name: 'Selene Lindsay Ribeiro',
+    profession: 'Gerente de Sistemas na Conductor Tecnologia'
   }, {
     img: '/static/img/gregorio-melo.png',
     name: 'Gregório Melo',
