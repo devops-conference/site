@@ -29,7 +29,7 @@ class Index extends React.Component {
                     <Calendar dateStartEvent={site.dateEventStart} dateFinishEvent={site.dateEventFinish}/>
 
                     <br/>
-                    <a className="button large" href="#inscription">Inscreva-se</a>
+                    <a className="button large" href="#inscription">Inscrições</a>
                 </Section>
                 <Section title={site.about.title} alignCenter firstSection>
                     <br/><br/>
@@ -156,7 +156,7 @@ class Index extends React.Component {
                         <p>Incentivamos a doação de um 1kg de alimento no momento do credenciamento. Todos os alimentos serão doados a uma instituição de caridade.</p><br/>
                         <br/>
                         <a className="button large" href="https://www.sympla.com.br/devops-conference__554372"
-                           target="_blank">Link de inscrição</a>
+                           target="_blank">Link para Inscrição</a>
                     </div>  
                 </MiniSection>
                 <MiniSection title="Apoio" backgroundImage={`url('${BACKEND_URL}/static/img/section-background/black.jpg')`} alignCenter >

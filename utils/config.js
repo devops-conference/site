@@ -85,12 +85,17 @@ const site = {
         {
             img: '/static/img/ramon-souza.png',
             name: 'Ramon Souza',
-            profession: 'Especialista de TI na Conductor'
+            profession: 'Especialista de TI na Conductor Tecnologia'
         },
         {
             img: '/static/img/aecio-pires.png',
             name: 'Aecio Pires',
             profession: 'Analista de Suporte na Unirede'
+        },
+        {
+            img: '/static/img/selene.jpeg',
+            name: 'Selene Lindsay Ribeiro',
+            profession: 'Gerente de Sistemas na Conductor Tecnologia'
         },
         {
             img: '/static/img/gregorio-melo.png',
