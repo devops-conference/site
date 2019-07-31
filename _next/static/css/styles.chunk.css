@@ -317,6 +317,13 @@ ul {
       margin: 50px 0px;
       height: auto;
       width: 115px; }
+  .patrocinadores .patrocinador.Citrus {
+    height: 180px;
+    vertical-align: center; }
+    .patrocinadores .patrocinador.Citrus img {
+      margin: 50px 0px;
+      height: auto;
+      width: 250px; }
 
 .programaca .programacao {
   font-size: 1em;
@@ -384,6 +391,20 @@ ul {
     height: 280px;
     vertical-align: center; }
     .apoiadores .apoiador.Alura img {
+      margin: 50px 0px;
+      height: auto;
+      width: 180px; }
+  .apoiadores .apoiador.Grude {
+    height: 280px;
+    vertical-align: center; }
+    .apoiadores .apoiador.Grude img {
+      margin: 50px 0px;
+      height: auto;
+      width: 180px; }
+  .apoiadores .apoiador.NET_PB {
+    height: 280px;
+    vertical-align: center; }
+    .apoiadores .apoiador.NET_PB img {
       margin: 50px 0px;
       height: auto;
       width: 180px; }

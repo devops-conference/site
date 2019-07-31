@@ -12955,7 +12955,7 @@ var site = {
     nome: 'Mesa Redonda'
   }],
   programaca: [{
-    img: '/static/img/programacao.png'
+    img: '/static/img/programação_site.png'
   }],
   palestrantes: [{
     img: '/static/img/kevin-medeiros.png',
@@ -13011,6 +13011,9 @@ var site = {
   }, {
     img: '/static/img/iland-bk.png',
     name: 'iLand Soluções'
+  }, {
+    img: '/static/img/citrus.png',
+    name: 'Citrus'
   }],
   organizadores: [{
     img: '/static/img/magno.png',
@@ -13041,6 +13044,15 @@ var site = {
   }, {
     img: '/static/img/saborf.png',
     name: 'Sabor Família Marmitaria'
+  }, {
+    img: '/static/img/grude.jpeg',
+    name: 'Grude JP'
+  }, {
+    img: '/static/img/paraibajs_contornado.png',
+    name: 'Paraiba JS'
+  }, {
+    img: '/static/img/netpb.jpeg',
+    name: 'NET_PB'
   }]
 };
 /* harmony default export */ __webpack_exports__["default"] = (site);
