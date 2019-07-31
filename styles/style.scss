@@ -211,6 +211,18 @@ ul {
             width: 115px;
         }
     }
+
+    &.Citrus{
+        height: 180px;
+        vertical-align: center;
+
+        img {
+
+            margin: 50px 0px;
+            height: auto;
+            width: 250px;
+        }
+    }
 }
 
 .programaca .programacao{
@@ -297,6 +309,30 @@ ul {
     }
 
     &.Alura{
+        height: 280px;
+        vertical-align: center;
+
+        img {
+
+            margin: 50px 0px;
+            height: auto;
+            width: 180px;
+        }
+    }
+
+    &.Grude{
+        height: 280px;
+        vertical-align: center;
+
+        img {
+
+            margin: 50px 0px;
+            height: auto;
+            width: 180px;
+        }
+    }
+
+    &.NET_PB{
         height: 280px;
         vertical-align: center;
 

@@ -62,7 +62,7 @@ const site = {
     ],
     programaca:[
         {
-            img: '/static/img/programacao.png',
+            img: '/static/img/programação_site.png',
     
         }
     ],
@@ -137,6 +137,10 @@ const site = {
             img: '/static/img/iland-bk.png',
             name: 'iLand Soluções',
         },
+        {
+            img: '/static/img/citrus.png',
+            name: 'Citrus',
+        },
     ],
     organizadores: [
         {
@@ -177,10 +181,18 @@ const site = {
             img: '/static/img/saborf.png',
             name: 'Sabor Família Marmitaria',
         },
-        // {
-        //     img: '/static/img/jesse.png',
-        //     name: 'Jessé Neto',
-        // },
+        {
+            img: '/static/img/grude.jpeg',
+            name: 'Grude JP',
+        },
+        {
+            img: '/static/img/paraibajs_contornado.png',
+            name: 'Paraiba JS',
+        },
+        {
+            img: '/static/img/netpb.jpeg',
+            name: 'NET_PB',
+        },
     ]
     
 }
